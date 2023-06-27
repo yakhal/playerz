@@ -1,0 +1,27 @@
+/* Card Styles */
+
+.card {
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.card img {
+  width: 100%;
+  max-width: 200px;
+  display: block;
+  margin: auto;
+}
+
+.playerinfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.field {
+  font-weight: bold;
+}
